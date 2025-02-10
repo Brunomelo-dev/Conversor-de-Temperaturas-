@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <header>
+        <h1>Conversor de Temperatura</h1>
+    </header>
+    <section>
+        <nav>
+            <label alt="label" id="l1">Valor</label>
+            <label alt="label" id="l2">Tipo</label> <br>
+            <input type="number" alt="número" placeholder="Número a ser convertido" id="num">
+            <select alt="seletor" id="s1">
+                <option value="Celcius">Celcius</option>
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Kelvin">Kelvin</option>
+            </select> <br>
+            <label alt="label" id="l3">Tipo a ser convertido</label>
+            <button id="btn" onclick="clicar()" alt="botão">Converter</button> <br>
+            <select alt="seletor" id="s2">
+                <option value="Fahrenheit">Fahrenheit</option>
+                <option value="Celcius">Celcius</option>
+                <option value="Kelvin">Kelvin</option>
+            </select>
+            <div id="resultado" alt="resultado"></div>
+        </nav>
+    </section>
+    <footer>
+        <p alt="GitHub link">&reg;github.com/Brunomelo-dev</p>
+    </footer>
+    <script src="modelo.js"></script>
+</body>
+</html>

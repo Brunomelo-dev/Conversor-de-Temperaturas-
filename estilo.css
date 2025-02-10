@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(73, 143, 40);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+section nav{
+    font-size: 1.1rem;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 20vw;
+    padding: 1vw;
+    overflow: hidden; /* * */
+    line-height: 2vw;
+    border-radius: 1vw;
+    box-shadow: 6px 6px 8px black;
+}
+
+section nav label#l2, button, select#s1{
+    float: right;
+}
+
+section nav label#l2{
+    margin-right: 1.8vw;
+}
+
+section nav button#btn{
+    border: none;
+    color: white;
+    background-color: rgb(60, 122, 31);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 5px black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section nav button{
+    margin-top: 2.5vw;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
